@@ -6,8 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Chennai Tweets</title>
     <link data-require="bootstrap-css@3.3.1" data-semver="3.3.1" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    <style>
+    .my-container {
+	    position: relative;
+	    overflow: hidden;
+	}
+	.my-container h1 {
+	    position: relative;
+	    z-index: 2;
+	    color: black;
+	} 
+	.my-container li {
+	    position: relative;
+	    z-index: 2;
+		color: black;
+    	font-size: 200%;
+    	margin-top: 10px;
+	}
+    img {
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	    height: 100%;
+	    opacity: 0.6;
+	}
+    </style>
   </head>
   <body>
+  	<div class="my-container">
     <center><h1>Accessing Twitter via SMS</h1></center>
+    <div class="col-sm-2"></div>
+    <ol class = "col-sm-8">
+    <li>
+    SMS the following number: 9248948837 with a word of your choice. You will receive a message from Twitter in response, asking if you are already signed up or if you want to sign up.
+    </li>
+    <li>
+	Create a username and password by following the provided directions (given by Twitter). If you are new to Twitter, you will have to SMS both your desired username and password – don’t worry, this is 100% safe.
+	</li>
+	<li>
+ 	Once you’ve created an account, you will receive a account confirmation SMS from Twitter.
+ 	</li>
+ 	<li>
+ 	Once registration has been completed, you will be able to ‘tweet’/post on Twitter directly through SMS.
+ 	</li>
+ 	<li>
+	IMPORTANT: Make sure to end your tweets with <strong>#ChennaiHelpMe</strong>. We will only be able to track your tweets if you do this! 
+	</li>
+	</ol>
+	<div class="col-sm-2"></div>
+	</div>
+	<img src="phone.jpg">
   </body>
 </html>
